@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redesigned Layout</title>
+    <link rel="stylesheet" href="chat.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">
+            <h1>ShopEase</h1>
+        </div>
+        <nav class="navlinks">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="highlight">Cart</a></li>
+                <li><a href="#" class="highlight">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="layout">
+            <!-- Left Sidebar -->
+            <aside class="left">
+                <h2>Filters</h2>
+                <form>
+                    <label>Brands</label>
+                    <select>
+                        <option>Nike</option>
+                        <option>BMS</option>
+                        <option>Jockey</option>
+                    </select>
+
+                    <label>Price Range</label>
+                    <select>
+                        <option>100 - 1000</option>
+                        <option>1000 - 3000</option>
+                        <option>3000 - 5000</option>
+                    </select>
+
+                    <label>Design</label>
+                    <select>
+                        <option>Stylish</option>
+                        <option>Formal</option>
+                        <option>Casual</option>
+                    </select>
+
+                    <label>Colors</label>
+                    <select>
+                        <option>Black</option>
+                        <option>Red</option>
+                        <option>Blue</option>
+                    </select>
+
+                    <button type="submit">Apply Filters</button>
+                </form>
+            </aside>
+
+            <!-- Right Section -->
+            <section class="container">
+                <div class="gridline">
+                    <div class="grid-col">
+                        <img src="jeans1.jpg" alt="Jeans">
+                        <h3>Stylish Jeans</h3>
+                        <p>High-quality jeans with a perfect fit for all occasions.</p>
+                        <button>View More</button>
+                    </div>
+                    <div class="grid-col">
+                        <img src="shoes1.jpg" alt="Shoes">
+                        <h3>Sporty Shoes</h3>
+                        <p>Comfortable and durable shoes for everyday use.</p>
+                        <button>View More</button>
+                    </div>
+                    <!-- Add more products as needed -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 ShopEase. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

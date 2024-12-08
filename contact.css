@@ -1,0 +1,134 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Contact Section */
+.contact {
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+.contact .container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    color: #0078FF;
+    margin-bottom: 40px;
+}
+
+/* Form Styling */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+    border-color: #0078FF;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Button Styling */
+.btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #0078FF;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #005BB5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact .container {
+        width: 90%;
+    }
+
+    .contact h2 {
+        font-size: 1.8rem;
+    }
+
+    .contact-form {
+        padding: 20px;
+    }
+
+    .input-group {
+        width: 100%;
+    }
+
+    .input-group input,
+    .input-group textarea {
+        padding: 10px;
+    }
+
+    .btn {
+        padding: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact h2 {
+        font-size: 1.6rem;
+    }
+
+    .input-group input,
+    .input-group textarea {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

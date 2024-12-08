@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Cart Section</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+
+    <!-- Cart Section -->
+    <section class="cart" id="cart">
+        <div class="container">
+            <h2>Your Cart</h2>
+            <div class="cart-items">
+                <!-- Cart Item 1 -->
+                <div class="cart-item">
+                    <div class="item-image">
+                        <img src="https://via.placeholder.com/100" alt="Item Image">
+                    </div>
+                    <div class="item-details">
+                        <p class="item-name">Item 1</p>
+                        <p class="item-price">$15.99</p>
+                    </div>
+                    <div class="item-quantity">
+                        <input type="number" value="1" min="1">
+                    </div>
+                    <div class="item-total">
+                        <p>$15.99</p>
+                    </div>
+                    <button class="remove-item">Remove</button>
+                </div>
+
+                <!-- Cart Item 2 -->
+                <div class="cart-item">
+                    <div class="item-image">
+                        <img src="https://via.placeholder.com/100" alt="Item Image">
+                    </div>
+                    <div class="item-details">
+                        <p class="item-name">Item 2</p>
+                        <p class="item-price">$23.50</p>
+                    </div>
+                    <div class="item-quantity">
+                        <input type="number" value="1" min="1">
+                    </div>
+                    <div class="item-total">
+                        <p>$23.50</p>
+                    </div>
+                    <button class="remove-item">Remove</button>
+                </div>
+            </div>
+
+            <div class="cart-summary">
+                <div class="summary-item">
+                    <p>Total:</p>
+                    <p class="total-price">$39.49</p>
+                </div>
+                <button class="checkout-btn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
